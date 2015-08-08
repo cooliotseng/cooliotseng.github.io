@@ -66,6 +66,7 @@ app.MessageView = Backbone.View.extend({
         }
         
          // Let us open a web socket
+         /*
          ws = new WebSocket("ws://localhost:3000/start", ['echo-protocol']);
          ws.onopen = function()
          {
@@ -82,6 +83,7 @@ app.MessageView = Backbone.View.extend({
          { 
             div.html("<h1>error</h1>");
          };  
+         */
     }
 });
 
