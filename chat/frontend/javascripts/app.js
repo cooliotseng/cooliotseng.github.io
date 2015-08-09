@@ -81,8 +81,8 @@ app.MessageView = Backbone.View.extend({
          };
          ws.onerror = function()
          { 
-            div.html("<h1>error</h1>");
-         };  
+            div.html("<h1>error</h1>         };  
+");
         
     }
 });
